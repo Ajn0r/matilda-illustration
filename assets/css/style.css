@@ -1,0 +1,8 @@
+/* Font-imports */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Waterfall&display=swap');
+/* Default settings */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
