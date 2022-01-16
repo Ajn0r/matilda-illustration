@@ -41,7 +41,6 @@ body {
     text-decoration: none;
     font-size: 2rem;
 }
-
 /* End of header styles */
 
 /* Start of main styles */
@@ -50,6 +49,19 @@ main {
     background-size: cover;
     width: 100%;
     min-height: 80vh;
+    position: relative;
+}
+.main-page {
+    font-size: 3rem;
+    color: grey;
+}
+.about-me {
+
+}
+.main-link {
+    text-decoration: none;
+    font-size: 3rem;
+    color: inherit;
 }
 /* End of main styles */
 
