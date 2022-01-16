@@ -16,3 +16,17 @@ body {
     font-family: 'Playfair Display', sans-serif;
     min-height: 100vh;
 }
+/* Start of header styles */
+/* End of header styles */
+
+/* Start of main styles */
+main {
+    background: url(../images/logan-weaver-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh;
+}
+/* End of main styles */
+
+/* Start of footer styles */
+/* End of footer styles */
