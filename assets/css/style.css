@@ -35,5 +35,13 @@ main {
 /* End of main styles */
 
 /* Start of footer styles */
-
+.footer {
+    text-align: center;
+}
+.footer-icon {
+    text-decoration: none;
+    font-size: 200%;
+    color: darkslategrey;
+    margin: 10%;
+}
 /* End of footer styles */
