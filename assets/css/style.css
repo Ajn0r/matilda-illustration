@@ -17,6 +17,12 @@ body {
     min-height: 100vh;
 }
 /* Start of header styles */
+.header {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+
+}
 /* End of header styles */
 
 /* Start of main styles */
@@ -29,4 +35,5 @@ main {
 /* End of main styles */
 
 /* Start of footer styles */
+
 /* End of footer styles */
