@@ -19,10 +19,25 @@ body {
 /* Start of header styles */
 .header {
     width: 100%;
-    overflow: hidden;
-    display: flex;
+    height: 10vh;
+}
+.logo {
+    text-decoration: none;
+    color: black;
+}
+.nav {
 
 }
+.nav-list {
+    list-style: none;
+}
+.nav-list-link {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
 /* End of header styles */
 
 /* Start of main styles */
@@ -37,6 +52,7 @@ main {
 /* Start of footer styles */
 .footer {
     text-align: center;
+    height: 10vh;
 }
 .footer-icon {
     text-decoration: none;
@@ -45,3 +61,8 @@ main {
     margin: 10%;
 }
 /* End of footer styles */
+
+/* Media for medium to large screens */
+@media screen and (min-width: 750px){
+    
+}
