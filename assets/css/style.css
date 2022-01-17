@@ -118,15 +118,28 @@ main {
 /* Start of styles for main gallery page */
 .gallery-page {
     display: flex;
+    text-align: center;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
+.illustration-category {
+    background: url(../images/chanelliten.png) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
+.acrylics-category {
+    background: url(../images/rosakvinnaochleo.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
 .gallery-categories {
     width: 22rem;
     height: 22rem;
-    background-color: lawngreen;
 }
+
+
+
 /* End of styles for main gallery page */
 
 /* Start of footer styles */
@@ -141,7 +154,6 @@ main {
     color: darkslategrey;
     margin: 10%;
 }
-
 /* End of footer styles */
 
 /* Media for medium to large screens */
@@ -167,6 +179,7 @@ main {
         height: 30rem;
     }
 }
+/* Responsive for large to extra large screens */
 @media screen and (min-width: 1200px) {
     .gallery-categories {
         width: 40rem;
