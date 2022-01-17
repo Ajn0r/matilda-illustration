@@ -48,14 +48,16 @@ body {
     font-size: 2rem;
 }
 /* End of header styles */
-
+/* Main structure for all pages */
+main {
+    width: 100%;
+    min-height: 80vh;
+    position: relative;
+}
 /* Start of main styles for first page */
 .first-page {
     background: url(../images/logan-weaver-unsplash.jpg) no-repeat center center;
     background-size: cover;
-    width: 100%;
-    min-height: 80vh;
-    position: relative;
 }
 .main-nav-font {
     font-size: 3rem;
@@ -72,8 +74,8 @@ body {
     margin-left: 1rem;
     font-weight: bold;
 }
-
 /* End of main styles for first page */
+
 /* Start of main styles for about page */
 .about-page {
     background: url(../images/acryliconplate-unsplash.jpg) no-repeat center center;
@@ -112,6 +114,20 @@ body {
     background-color: #B27C66;
 }
 /* End of main styles for about page */
+ 
+/* Start of styles for main gallery page */
+.gallery-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.gallery-categories {
+    width: 22rem;
+    height: 22rem;
+    background-color: lawngreen;
+}
+/* End of styles for main gallery page */
 
 /* Start of footer styles */
 .footer {
@@ -143,4 +159,18 @@ body {
         justify-content: end;
         gap: 2rem;
     }
+    .gallery-page {
+        flex-direction: row;
+    }
+    .gallery-categories {
+        width: 30rem;
+        height: 30rem;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .gallery-categories {
+        width: 40rem;
+        height: 40rem;
+    }
+    
 }
