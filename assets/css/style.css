@@ -59,7 +59,7 @@ body {
 }
 .main-nav-font {
     font-size: 3rem;
-    color: grey;
+    color: rgb(70, 70, 70);
     position: absolute;
     bottom: 3rem;
     right: 3rem;
@@ -70,6 +70,7 @@ body {
     font-size: 3rem;
     color: inherit;
     margin-left: 1rem;
+    font-weight: bold;
 }
 
 /* End of main styles for first page */
@@ -92,7 +93,17 @@ body {
     padding: 3rem;
 }
 .about-header {
-    margin: 2rem 0;
+    margin: 1rem 0;
+}
+.about-text {
+    margin-bottom: 1rem;
+}
+.gallery-link {
+    text-decoration: none;
+    color: inherit;
+}
+.gallery-link:hover {
+    color: red;
 }
 /* End of main styles for about page */
 
