@@ -81,15 +81,14 @@ body {
 }
 
 /* End of main styles for first page */
+/* Start of main styles for about page */
 .about-page {
-    background: url(../images/logan-weaver-unsplash.jpg) no-repeat center center;
+    background: url(../images/acryliconplate-unsplash.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
     min-height: 80vh;
     position: relative;
 }
-/* Start of main styles for about page */
-
 /* End of main styles for about page */
 
 /* Start of footer styles */
