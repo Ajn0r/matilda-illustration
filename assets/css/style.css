@@ -99,11 +99,16 @@ body {
     margin-bottom: 1rem;
 }
 .gallery-link {
+    font-size: 110%;
+    font-weight: bold;
     text-decoration: none;
     color: inherit;
+    background-color: #DCB4A8;
+    padding: 0.5rem 0.7rem;
+    border-radius: 1rem;
 }
 .gallery-link:hover {
-    color: red;
+    background-color: #B27C66;
 }
 /* End of main styles for about page */
 
