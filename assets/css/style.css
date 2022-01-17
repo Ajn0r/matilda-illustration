@@ -80,8 +80,6 @@ main {
 .about-page {
     background: url(../images/acryliconplate-unsplash.jpg) no-repeat center center;
     background-size: cover;
-    width: 100%;
-    min-height: 80vh;
     position: relative;
     display: flex;
     justify-content: center;
@@ -124,7 +122,7 @@ main {
     justify-content: space-evenly;
 }
 .illustration-category {
-    background: url(../images/chanelliten.png) no-repeat center center;
+  background: url(../images/chanelliten.png) no-repeat center center;
     background-size: cover;
     width: 100%;
 }
