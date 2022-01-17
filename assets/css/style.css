@@ -1,9 +1,11 @@
 /* Font-imports */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Waterfall&display=swap');
+
 /* reset to 10px - now i can use 1rem = 10px */
 html {
-    font-size: 62.5%; 
+    font-size: 62.5%;
 }
+
 /* Default settings */
 * {
     padding: 0;
@@ -11,26 +13,31 @@ html {
     border: none;
     box-sizing: border-box;
 }
+
 body {
     font-size: 1.6rem;
     font-family: 'Playfair Display', sans-serif;
     min-height: 100vh;
 }
+
 /* Start of header styles */
 .header {
     width: 100%;
     min-height: 10vh;
     max-height: 16vh;
 }
+
 .logo {
     text-decoration: none;
     color: black;
     font-size: 2rem;
     text-align: center;
 }
+
 .active {
     border-bottom: 0.1rem solid black;
 }
+
 /*
 .nav {
                     !!!Might not need this, then remove
@@ -39,22 +46,25 @@ body {
 .nav-list {
     list-style: none;
 }
+
 .nav-list-link {
     color: black;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 2rem;
 }
+
 /* End of header styles */
 
-/* Start of main styles */
-main {
+/* Start of main styles for first page */
+.first-page {
     background: url(../images/logan-weaver-unsplash.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
     min-height: 80vh;
     position: relative;
 }
+
 .main-nav-font {
     font-size: 3rem;
     color: grey;
@@ -62,35 +72,50 @@ main {
     bottom: 3rem;
     right: 3rem;
 }
+
 .main-link {
     text-decoration: none;
     font-size: 3rem;
     color: inherit;
     margin-left: 1rem;
 }
-/* End of main styles */
+
+/* End of main styles for first page */
+.about-page {
+    background: url(../images/logan-weaver-unsplash.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 80vh;
+    position: relative;
+}
+/* Start of main styles for about page */
+
+/* End of main styles for about page */
 
 /* Start of footer styles */
 .footer {
     text-align: center;
     max-height: 10vh;
 }
+
 .footer-icon {
     text-decoration: none;
     font-size: 200%;
     color: darkslategrey;
     margin: 10%;
 }
+
 /* End of footer styles */
 
 /* Media for medium to large screens */
-@media screen and (min-width: 750px){
+@media screen and (min-width: 750px) {
     .header {
         display: flex;
         justify-content: space-between;
         padding: 0 2rem;
         align-items: center;
     }
+
     .nav-list {
         display: flex;
         flex-direction: row;
