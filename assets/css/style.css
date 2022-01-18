@@ -5,6 +5,7 @@
 html {
     font-size: 62.5%;
 }
+
 /* Default settings */
 * {
     padding: 0;
@@ -12,23 +13,27 @@ html {
     border: none;
     box-sizing: border-box;
 }
+
 body {
     font-size: 1.6rem;
     font-family: 'Playfair Display', sans-serif;
     min-height: 100vh;
 }
+
 /* Start of header styles */
 .header {
     width: 100%;
     min-height: 10vh;
     max-height: 16vh;
 }
+
 .logo {
     text-decoration: none;
     color: black;
     font-size: 2rem;
     text-align: center;
 }
+
 .active {
     border-bottom: 0.1rem solid black;
 }
@@ -41,12 +46,14 @@ body {
 .nav-list {
     list-style: none;
 }
+
 .nav-list-link {
     color: black;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 2rem;
 }
+
 /* End of header styles */
 /* Main structure for all pages */
 main {
@@ -54,17 +61,27 @@ main {
     min-height: 80vh;
     position: relative;
 }
+
 /* Start of main styles for first page */
 .first-page {
     background: url(../images/logan-weaver-unsplash.jpg) no-repeat center center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
-.main-nav-font {
-    font-size: 3rem;
-    color: rgb(70, 70, 70);
-    position: absolute;
-    bottom: 3rem;
-    right: 3rem;
+
+.im-matilda {
+    font-size: 6rem;
+}
+
+.to-about-box {
+    border: 1px solid black;
+    border: 1px solid black;
+    text-align: center;
+    width: 25rem;
+    margin: 0 auto;
 }
 
 .main-link {
@@ -74,6 +91,7 @@ main {
     margin-left: 1rem;
     font-weight: bold;
 }
+
 /* End of main styles for first page */
 
 /* Start of main styles for about page */
@@ -85,6 +103,7 @@ main {
     justify-content: center;
     align-items: center;
 }
+
 .about-container {
     width: 80%;
     height: auto;
@@ -92,13 +111,16 @@ main {
     text-align: center;
     padding: 3rem;
 }
+
 .about-header {
     margin: 1rem 0;
 }
+
 .about-text {
     margin: 1.5rem 0;
 }
-                /* Change style of this! Other colors... */
+
+/* Change style of this! Other colors... */
 .gallery-link {
     font-size: 110%;
     font-weight: bold;
@@ -108,11 +130,13 @@ main {
     padding: 0.5rem 0.7rem;
     border-radius: 1rem;
 }
+
 .gallery-link:hover {
     background-color: #B27C66;
 }
+
 /* End of main styles for about page */
- 
+
 /* Start of styles for main gallery page */
 .gallery-page {
     display: flex;
@@ -121,16 +145,19 @@ main {
     align-items: center;
     justify-content: space-evenly;
 }
+
 .illustration-category {
-  background: url(../images/chanelliten.png) no-repeat center center;
+    background: url(../images/chanelliten.png) no-repeat center center;
     background-size: cover;
     width: 100%;
 }
+
 .acrylics-category {
     background: url(../images/rosakvinnaochleo.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
 }
+
 .gallery-categories {
     width: 22rem;
     height: 22rem;
@@ -152,6 +179,7 @@ main {
     color: darkslategrey;
     margin: 10%;
 }
+
 /* End of footer styles */
 
 /* Media for medium to large screens */
@@ -169,19 +197,22 @@ main {
         justify-content: end;
         gap: 2rem;
     }
+
     .gallery-page {
         flex-direction: row;
     }
+
     .gallery-categories {
         width: 30rem;
         height: 30rem;
     }
 }
+
 /* Responsive for large to extra large screens */
 @media screen and (min-width: 1200px) {
     .gallery-categories {
         width: 40rem;
         height: 40rem;
     }
-    
+
 }
