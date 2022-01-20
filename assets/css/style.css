@@ -54,13 +54,16 @@ body {
     text-decoration: none;
     font-size: 2rem;
 }
-
+.nav-list-item {
+    margin: 0.7rem;
+}
 /* End of header styles */
 /* Main structure for all pages */
 main {
     width: 100%;
     min-height: 80vh;
     position: relative;
+    margin-top: 9rem;
 }
 
 /* Start of main styles for first page */
@@ -185,14 +188,17 @@ main {
 
 /* End of footer styles */
 /* Media for small screens - controls the nav */
-@media screen and (max-width: 750px) {
+/*@media screen and (max-width: 750px) {
     main {
-      margin-top: 6rem;
+      
     }
   }
-
+*/
 /* Media for medium to large screens */
 @media screen and (min-width: 750px) {
+  main {
+      margin-top: 0;
+  }
     .header {
         display: flex;
         justify-content: space-between;
@@ -205,6 +211,9 @@ main {
         flex-direction: row;
         justify-content: end;
         gap: 2rem;
+    }
+    .nav-list-item {
+        margin: 0;
     }
     .im-matilda {
         margin-top: 25%;
