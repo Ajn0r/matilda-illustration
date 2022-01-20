@@ -70,10 +70,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10rem;
 }
 .im-matilda {
     font-size: 6rem;
+    margin-top: 50%;
+    text-align: center;
 }
 .to-about-box {
     border: 1px solid black;
@@ -204,6 +205,9 @@ main {
         flex-direction: row;
         justify-content: end;
         gap: 2rem;
+    }
+    .im-matilda {
+        margin-top: 20%;
     }
 
     .gallery-page {
