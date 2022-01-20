@@ -187,13 +187,12 @@ main {
 }
 
 /* End of footer styles */
-/* Media for small screens - controls the nav */
-/*@media screen and (max-width: 750px) {
-    main {
-      
+/* Media for small screens */
+@media screen and (min-width: 340px) {
+    .logo {
+      font-size: 4rem;
     }
   }
-*/
 /* Media for medium to large screens */
 @media screen and (min-width: 750px) {
   main {
