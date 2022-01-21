@@ -131,7 +131,10 @@ main {
 .about-text {
     margin: 1.5rem 0;
 }
-
+.matilda-picture {
+    width: 100%;
+    max-height: 50rem;
+}
 /* Change style of this! Other colors... */
 .gallery-link {
     font-size: 110%;
