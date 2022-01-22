@@ -191,6 +191,10 @@ justify-content: center;
 .gallery-images > img {
     width: 85%;
 }
+.back {
+margin: 2rem 0;
+text-align: center;
+}
 /* Start of footer styles */
 .footer {
     text-align: center;
