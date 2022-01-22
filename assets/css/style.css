@@ -126,10 +126,13 @@ main {
 .about-text {
     margin: 1.5rem 0;
 }
+.painter-image {
+    display: none;
+}
 .matilda-picture {
     width: 100%;
     max-width: 45rem;
-    max-height: 50rem;
+    max-height: 65rem;
     border-radius: 0.5rem;
 
 }
@@ -250,6 +253,9 @@ main {
         width: 40rem;
         height: 40rem;
     }
+    .painter-image {
+        display: block;
+    }
     /* Grid layout setup for about page on large screens */
     .about-container {
         display: grid;
@@ -264,10 +270,7 @@ main {
     .painter-image {grid-area: img;}
     .paint-styles {grid-area: styles;}
     .custom-order {grid-area: order;}
-    
-    .matilda-picture {
-        max-height: 65rem;
-    }
+
     .custom-order {
         width: 80%;
         margin: 0 auto;
