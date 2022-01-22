@@ -13,13 +13,14 @@
 </head>
 
 <body>
-    <header class="header" >
+    <header class="header">
         <!-- Logo -->
         <h1 class="logo">
-        <a href="index.html" class="logo" aria-label="If you click on this it takes you back to the first page 'home' ">
-            Matilda Illustration</a>
+            <a href="index.html" class="logo"
+                aria-label="If you click on this it takes you back to the first page 'home' ">
+                Matilda Illustration</a>
         </h1>
-        
+
         <!-- Navigation menu -->
         <nav class="nav">
             <ul class="nav-list">
@@ -44,21 +45,25 @@
     </header>
     <main class="contact-page">
         <form action="#" method="get">
-            <label for="name">Name: </label>
-            <input id="name" type="text" name="name">
+            <fieldset>
+                <label for="name">Name: </label>
+                <input id="name" type="text" name="name">
 
-            <label for="email">Email: </label>
-            <input id="email" type="email" name="email">
+                <label for="email">Email: </label>
+                <input id="email" type="email" name="email">
 
-            <label for="options">What can I do for you?</label>
-            <select id="options" name="options">
-                <option value="questions">Questions</option>
-                <option value="orders">Special order</option>
-                <option value="contact">Contact</option>
-                <option value="Collaberations">Collaberations</option>
-            </select>
-            <textarea name="message" cols="30" rows="10"></textarea>
-            <input type="button" value="submit">
+                <label for="options">What can I do for you?</label>
+                <select id="options" name="options">
+                    <option value="questions">Questions</option>
+                    <option value="orders">Special order</option>
+                    <option value="contact">Contact</option>
+                    <option value="Collaberations">Collaberations</option>
+                </select>
+
+                <textarea name="message" cols="30" rows="10"></textarea>
+
+                <input type="button" value="submit">
+            </fieldset>
         </form>
     </main>
     <footer class="footer">
