@@ -99,7 +99,7 @@ main {
 
 /* Start of main styles for about page */
 .about-page {
-    background: url(../images/acryliconplate-unsplash.jpg) no-repeat center center;
+    background: url(../images//backgrounds/background-paintplate_2000-010.webp) no-repeat center center;
     background-size: cover;
     position: relative;
     display: flex;
