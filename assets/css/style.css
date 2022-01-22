@@ -195,6 +195,12 @@ justify-content: center;
 margin: 2rem 0;
 text-align: center;
 }
+
+
+input, textarea, select {
+    border: 1px solid black;
+}
+
 /* Start of footer styles */
 .footer {
     text-align: center;

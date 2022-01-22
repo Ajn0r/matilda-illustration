@@ -43,7 +43,23 @@
         </nav>
     </header>
     <main class="contact-page">
-    
+        <form action="#" method="get">
+            <label for="name">Name: </label>
+            <input id="name" type="text" name="name">
+
+            <label for="email">Email: </label>
+            <input id="email" type="email" name="email">
+
+            <label for="options">What can I do for you?</label>
+            <select id="options" name="options">
+                <option value="questions">Questions</option>
+                <option value="orders">Special order</option>
+                <option value="contact">Contact</option>
+                <option value="Collaberations">Collaberations</option>
+            </select>
+            <textarea name="message" cols="30" rows="10"></textarea>
+            <input type="button" value="submit">
+        </form>
     </main>
     <footer class="footer">
         <a href="https://www.facebook.com" target="_blank" rel="noopener" class="footer-icon"
