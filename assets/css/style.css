@@ -26,23 +26,15 @@ body {
     min-height: 10vh;
     max-height: 16vh;
 }
-
 .logo {
     text-decoration: none;
     color: black;
     font-size: 2rem;
     text-align: center;
 }
-
 .active {
     border-bottom: 0.1rem solid black;
 }
-
-/*
-.nav {
-                    !!!Might not need this, then remove
-}
-*/
 .nav-list {
     list-style: none;
     text-align: center;
@@ -149,6 +141,7 @@ main {
     color: inherit;
     padding: 0.5rem 0.7rem;
     border: 1px solid #2c2c2c;
+    border-radius: 0.3rem;
 }
 
 .gallery-link:hover {
