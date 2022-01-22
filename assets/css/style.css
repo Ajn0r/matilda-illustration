@@ -197,8 +197,21 @@ text-align: center;
 }
 
 
-input, textarea, select {
+input, textarea, select, fieldset {
     border: 1px solid black;
+}
+.contact-page {
+    background: url(../images/backgrounds/backgrounds_2000-012.webp) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form {
+    width: 90%;
+    height: auto;
+    background-color: rgba(243, 243, 243, 0.8);
+    text-align: center;
 }
 
 /* Start of footer styles */

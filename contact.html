@@ -44,14 +44,18 @@
         </nav>
     </header>
     <main class="contact-page">
-        <form action="#" method="get">
+        <form action="#" method="get" class="contact-form">
             <fieldset>
+                <legend>Let me hear it!</legend>
+                <div>
                 <label for="name">Name: </label>
                 <input id="name" type="text" name="name">
-
+            </div>
+            <div>
                 <label for="email">Email: </label>
                 <input id="email" type="email" name="email">
-
+            </div>
+            <div>
                 <label for="options">What can I do for you?</label>
                 <select id="options" name="options">
                     <option value="questions">Questions</option>
@@ -59,10 +63,13 @@
                     <option value="contact">Contact</option>
                     <option value="Collaberations">Collaberations</option>
                 </select>
-
+            </div>
+            <div>
                 <textarea name="message" cols="30" rows="10"></textarea>
-
+            </div>
+            <div>
                 <input type="button" value="submit">
+            </div>
             </fieldset>
         </form>
     </main>
