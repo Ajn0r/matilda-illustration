@@ -291,6 +291,9 @@ text-align: center;
         width: 80%;
         margin: 0 auto;
     }
+    .about-container > div {
+        padding: 1rem 3rem;
+    }
     .gallery-images > img {
         width: 24%;
     }
