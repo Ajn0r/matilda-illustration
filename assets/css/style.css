@@ -182,6 +182,15 @@ main {
 }
 /* End of styles for main gallery page */
 
+/* Start of styles for illustration & acrylics page */
+.illustrations {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.illustrations > img {
+    width: 85%;
+}
 /* Start of footer styles */
 .footer {
     text-align: center;
@@ -245,6 +254,9 @@ main {
         width: 30rem;
         height: 30rem;
     }
+    .illustrations > img {
+        width: 47%;
+    }
 }
 
 /* Responsive for large to extra large screens */
@@ -274,5 +286,8 @@ main {
     .custom-order {
         width: 80%;
         margin: 0 auto;
+    }
+    .illustrations > img {
+        width: 24%;
     }
 }
