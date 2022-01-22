@@ -249,5 +249,16 @@ main {
         width: 40rem;
         height: 40rem;
     }
+    .about-container {
+        display: grid;
+        grid-template-areas: 'about img'
+        'about img'
+        'styles img'
+        'styles order';
+    }
+    .about-me {grid-area: about;}
+    .painter-image {grid-area: img;}
+    .paint-styles {grid-area: styles;}
+    .custom-order {grid-area: order;}
 
 }
