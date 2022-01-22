@@ -124,7 +124,9 @@ main {
     padding: 3rem;
     margin: 2rem 0;
 }
-
+.about-container > div {
+    padding: 2rem;
+}
 .about-header {
     margin: 1rem 0;
 }
@@ -249,16 +251,21 @@ main {
         width: 40rem;
         height: 40rem;
     }
+    /* Grid layout setup for about page on large screens */
     .about-container {
         display: grid;
         grid-template-areas: 'about img'
         'about img'
         'styles img'
         'styles order';
+        gap: 2rem;
     }
     .about-me {grid-area: about;}
     .painter-image {grid-area: img;}
     .paint-styles {grid-area: styles;}
     .custom-order {grid-area: order;}
-
+    
+    .matilda-picture {
+        max-height: 65rem;
+    }
 }
