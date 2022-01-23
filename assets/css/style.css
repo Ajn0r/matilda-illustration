@@ -230,10 +230,15 @@ label {
 }
 .form-select{
     width: 100%;
-    padding: 0.5rem;
+    padding: 0.3rem;
 }
 .textarea {
     min-height: 20rem;
+}
+.submit-button {
+    padding: 0.6rem;
+    text-transform: uppercase;
+    font-weight: bolder;
 }
 /* End of styles for contact page */
 
