@@ -195,8 +195,9 @@ justify-content: center;
 margin: 2rem 0;
 text-align: center;
 }
+/* End of styles for illustration and acrylics pages */
 
-
+/* Start of styles for contact page */
 input, textarea, select, fieldset {
     border: 1px solid black;
 }
@@ -213,6 +214,7 @@ input, textarea, select, fieldset {
     background-color: rgba(243, 243, 243, 0.8);
     text-align: center;
 }
+/* End of styles for contact page */
 
 /* Start of footer styles */
 .footer {
