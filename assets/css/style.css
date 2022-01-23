@@ -102,7 +102,7 @@ main {
 
 /* Start of main styles for about page */
 .about-page {
-    background: url(../images//backgrounds/background-hangingbrush.webp) no-repeat center center;
+    background: url(../images/backgrounds/backgrounds_2200x1500-034.webp) no-repeat center center;
     background-size: cover;
     position: relative;
     display: flex;
@@ -141,7 +141,6 @@ main {
     max-width: 45rem;
     max-height: 65rem;
     border-radius: 0.5rem;
-
 }
 
 /* Change style of this! Other colors... */
@@ -164,7 +163,9 @@ main {
 /* End of main styles for about page */
 
 /* Start of styles for main gallery page */
-.gallery-page {
+.gallery-page {    
+    background: url(../images/backgrounds/backgrounds_2200x1500-034.webp) no-repeat center center;
+    background-size: cover;
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -223,7 +224,7 @@ label {
 }
 
 .contact-page {
-    background: url(../images/backgrounds/background-paintbrush.webp) no-repeat center center;
+    background: url(../images/backgrounds/backgrounds_2200x1500-034.webp) no-repeat center center;
     background-size: cover;
     display: flex;
     justify-content: center;
