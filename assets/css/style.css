@@ -338,7 +338,7 @@ label {
     }
 
     .about-container>div {
-        padding: 2rem;
+        padding: 3rem;
     }
 
     .gallery-page {
@@ -374,12 +374,12 @@ label {
     .about-container {
         width: 65%;
         display: grid;
-        grid-template-areas: 'about img'
+        grid-template-areas: 
             'about img'
             'styles img'
-            'styles order'
-            'styles .';
-        gap: 2rem;
+            'styles insta'
+            'order order';
+        gap: 1rem;
     }
     .about-me {
         grid-area: about;
@@ -392,6 +392,9 @@ label {
     }
     .custom-order {
         grid-area: order;
+    }
+    .latest-works {
+    grid-area: insta;
     }
     .custom-order {
         width: 80%;
