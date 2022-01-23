@@ -129,7 +129,7 @@ main {
 }
 
 .about-text {
-    margin: 1.5rem 0;
+    margin: 2rem 0;
 }
 
 .painter-image {
@@ -337,7 +337,7 @@ label {
     }
 
     .about-container>div {
-        padding: 1rem 6rem;
+        padding: 2rem;
     }
 
     .gallery-page {
@@ -368,6 +368,7 @@ label {
 
     /* Grid layout setup for about page on large screens */
     .about-container {
+        width: 65%;
         display: grid;
         grid-template-areas: 'about img'
             'about img'
@@ -376,32 +377,22 @@ label {
             'styles .';
         gap: 2rem;
     }
-
     .about-me {
         grid-area: about;
     }
-
     .painter-image {
         grid-area: img;
     }
-
     .paint-styles {
         grid-area: styles;
     }
-
     .custom-order {
         grid-area: order;
     }
-
     .custom-order {
         width: 80%;
         margin: 0 auto;
     }
-
-    .about-container>div {
-        padding: 1rem 3rem;
-    }
-
     .gallery-images>img {
         width: 24%;
     }
