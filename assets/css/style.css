@@ -211,15 +211,19 @@ label {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .contact-form {
     width: 90%;
     max-width: 60rem;
     height: auto;
     background-color: rgba(243, 243, 243, 0.8);
-    text-align: center;
     padding: 3rem;
     border-radius: 0.5rem;
+}
+.contact-text{
+    text-align: center;
+    padding: 1rem 2rem;
 }
 .contact-element{
     margin: 1rem;
