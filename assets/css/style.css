@@ -170,7 +170,8 @@ main {
     text-align: center;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 2.5rem;
 }
 
 .illustration-category {
@@ -358,6 +359,7 @@ label {
     .gallery-categories {
         width: 40rem;
         height: 40rem;
+  
     }
 
     .painter-image {
