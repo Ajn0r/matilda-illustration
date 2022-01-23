@@ -244,6 +244,9 @@ label {
     text-transform: uppercase;
     font-weight: bolder;
 }
+.reviced-form {
+    text-align: center;
+}
 /* End of styles for contact page */
 
 /* Start of footer styles */
