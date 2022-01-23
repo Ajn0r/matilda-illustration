@@ -238,8 +238,8 @@ label {
     max-width: 60rem;
     height: auto;
     background-color: rgba(243, 243, 243, 0.8);
-
     padding: 3rem;
+    margin: 2rem 1rem;
     border-radius: 0.5rem;
 }
 
