@@ -357,6 +357,9 @@ label {
 
 /* Responsive for large to extra large screens */
 @media screen and (min-width: 1200px) {
+    .header {
+        padding: 0 2rem;
+    }
     .gallery-categories {
         width: 40rem;
         height: 40rem;
