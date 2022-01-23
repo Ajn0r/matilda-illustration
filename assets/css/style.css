@@ -55,7 +55,7 @@ body {
 /* Main structure for all pages */
 main {
     width: 100%;
-    min-height: 80vh;
+    min-height: 85vh;
     position: relative;
     margin-top: 9rem;
 }
@@ -99,7 +99,7 @@ main {
 
 /* Start of main styles for about page */
 .about-page {
-    background: url(../images//backgrounds/background-paintplate_2000-010.webp) no-repeat center center;
+    background: url(../images//backgrounds/background-hangingbrush.webp) no-repeat center center;
     background-size: cover;
     position: relative;
     display: flex;
@@ -199,14 +199,14 @@ text-align: center;
 
 /* Start of styles for contact page */
 input, textarea, select {
-    border: 1px solid black;
+    border: 1px solid grey;
     border-radius: 0.4rem;
 }
 label {
     font-size: 2rem;
 }
 .contact-page {
-    background: url(../images/backgrounds/backgrounds_2000-012.webp) no-repeat center center;
+    background: url(../images/backgrounds/background-paintbrush.webp) no-repeat center center;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -229,20 +229,24 @@ label {
     margin: 1rem;
 }
 .form-input {
-    width: 100%;
     padding: 0.8rem;
+    width: 100%;
 }
 .form-select{
-    width: 100%;
     padding: 0.3rem;
+    width: 100%;
 }
 .textarea {
     min-height: 20rem;
+    width: 100%;
 }
 .submit-button {
     padding: 0.6rem;
-    text-transform: uppercase;
-    font-weight: bolder;
+    text-transform: capitalize;
+    text-align: center;
+}
+.submit-center {
+    text-align: center;
 }
 .reviced-form {
     text-align: center;
