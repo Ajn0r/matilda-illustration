@@ -198,8 +198,12 @@ text-align: center;
 /* End of styles for illustration and acrylics pages */
 
 /* Start of styles for contact page */
-input, textarea, select, fieldset {
+input, textarea, select {
     border: 1px solid black;
+    border-radius: 0.4rem;
+}
+label {
+    font-size: 2rem;
 }
 .contact-page {
     background: url(../images/backgrounds/backgrounds_2000-012.webp) no-repeat center center;
@@ -210,10 +214,21 @@ input, textarea, select, fieldset {
 }
 .contact-form {
     width: 90%;
+    max-width: 60rem;
     height: auto;
     background-color: rgba(243, 243, 243, 0.8);
     text-align: center;
     padding: 3rem;
+    border-radius: 0.5rem;
+}
+.contact-element{
+    margin: 1rem;
+}
+.form-input {
+    width: 100%;
+}
+.form-select{
+    width: 100%;
 }
 /* End of styles for contact page */
 
