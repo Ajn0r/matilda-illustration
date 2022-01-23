@@ -213,6 +213,7 @@ input, textarea, select, fieldset {
     height: auto;
     background-color: rgba(243, 243, 243, 0.8);
     text-align: center;
+    padding: 3rem;
 }
 /* End of styles for contact page */
 
