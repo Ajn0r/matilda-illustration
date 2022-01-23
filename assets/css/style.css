@@ -226,9 +226,14 @@ label {
 }
 .form-input {
     width: 100%;
+    padding: 0.7rem;
 }
 .form-select{
     width: 100%;
+    padding: 0.7rem;
+}
+.textarea {
+    min-height: 20rem;
 }
 /* End of styles for contact page */
 
