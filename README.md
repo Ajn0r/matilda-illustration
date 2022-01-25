@@ -37,7 +37,7 @@ The website serves as a portfolio for the artist, it serves people searching for
 
 #### First time visitor perspective Fulfilment
 
-- The home page consist of little information, inspiring the user to continue
+- On the about page, the user can read about the artist, and view her work in the gallery, hopefully giving some inspiration
 - Following the main page link "get to know me" or following the link in the navigation to "about", the user can easily find their way to information about the artist
 - On the about page, the user can read about the different types of work the artist do, or being familiar with the techuniqs of painting, viewing the gallery one could easily find out which the different types of works are.
 - The gallery page is where the user can view the artist work, there is also a direct link to both acrylic and illustration gallery page on the about page
