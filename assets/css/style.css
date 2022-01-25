@@ -373,8 +373,8 @@ label {
         grid-template-areas: 
             'about img'
             'styles img'
-            'styles insta'
-            'order order';
+            'styles order'
+            'insta insta';
         gap: 1rem;
     }
     .about-me {
