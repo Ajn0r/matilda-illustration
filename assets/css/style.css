@@ -368,7 +368,7 @@ label {
 
     /* Grid layout setup for about page on large screens */
     .about-container {
-        width: 65%;
+        width: 80%;
         display: grid;
         grid-template-areas: 
             'about img'
