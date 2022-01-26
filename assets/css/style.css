@@ -183,10 +183,15 @@ main {
     background-size: cover;
     width: 100%;
 }
-
+.gallery-link {
+    transition: transform .2s;
+}
 .gallery-categories {
     width: 22rem;
     height: 22rem;
+}
+.gallery-link:hover {
+    transform: scale(1.1);
 }
 
 /* End of styles for main gallery page */
