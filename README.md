@@ -143,7 +143,6 @@ For all other text
 ### Validators
 
 
-
 ### Local testing
 
 ### Responsivness
