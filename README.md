@@ -2,6 +2,8 @@
 
 For the first Portfolio Project with Code Institute, I have created a portfolio website for my friend Matilda who makes illustrations and paints acrylics.
 
+![Colors](assets/documentation/amiresponsive.png)
+
 For the live site please click [here](https://ajn0r.github.io/matilda-illustration/)
 
 ## Who is the website for?
@@ -94,6 +96,7 @@ It provides an image of the artist on large screens and also change layout using
 - image here
 
 #### Gallery page
+- The Gallery page
 
 #### Contact page
 
@@ -105,9 +108,11 @@ It provides an image of the artist on large screens and also change layout using
 
 #### Colors
 
-I have found the colors for the website on Coolors.co, in the color palette generator
+I have found the colors for the website on Coolors.co
 
 ![Colors](assets/documentation/coolors.png)
+
+Since all of the pages have a background I decided to go with different scales of black and white and also a nice pink color 
 
 #### Fonts
 
@@ -159,6 +164,7 @@ I have used:
 - Google Fonts for fonts
 - Coolors.co for colors
 - Font Awesome for icons
+- Favicon.io for the favicon 
 - Git for version control
 - Github for keeping the files, documents and depolyment of the site
 
