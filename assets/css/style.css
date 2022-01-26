@@ -1,5 +1,5 @@
 /* Font-imports */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Waterfall&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Permanent+Marker&display=swap');
 
 /* reset to 10px - now i can use 1rem = 10px */
 html {
@@ -16,7 +16,7 @@ html {
 
 body {
     font-size: 1.6rem;
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Noto serif', sans-serif;
     min-height: 100vh;
 }
 
@@ -25,6 +25,7 @@ body {
     width: 100%;
     min-height: 10vh;
     max-height: 16vh;
+
 }
 
 .logo {
@@ -32,6 +33,8 @@ body {
     color: #D17B88;
     font-size: 2rem;
     text-align: center;
+    font-family: 'Permanent Marker', sans-serif;
+    
 }
 .logo:hover {
 color: #2c2c2c;
@@ -85,6 +88,7 @@ main {
     font-size: 6rem;
     margin-top: 50%;
     text-align: center;
+    font-family: 'Permanent Marker', sans-serif;
 }
 
 .to-about-box {
@@ -92,6 +96,7 @@ main {
     text-align: center;
     width: 25rem;
     margin: 0 auto;
+
 }
 
 .to-about-box:hover {
@@ -130,10 +135,14 @@ main {
 .about-container>div {
     padding: 1.5rem;
 }
-
+.hey-you {
+    font-size: larger;
+}
 .about-header {
+    color: #D17B88;
     margin: 1rem 0;
     font-size: 3rem;
+    font-family: 'Permanent Marker', sans-serif;
 }
 
 .about-text {
