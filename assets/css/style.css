@@ -192,6 +192,9 @@ main {
 /* End of styles for main gallery page */
 
 /* Start of styles for illustration & acrylics page */
+.illustration-page, .acrylic-page {
+    background: none;
+}
 .gallery-images {
     display: flex;
     flex-wrap: wrap;
