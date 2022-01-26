@@ -50,7 +50,8 @@ body {
     font-size: 2rem;
 }
 .nav-list-link:hover {
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #CE4760;
+    color: #CE4760;
 }
 .nav-list-item {
     margin: 0.7rem;
@@ -91,8 +92,9 @@ main {
 }
 
 .to-about-box:hover {
+    border: none;
     color: white;
-    background-color: #2c2c2c;
+    background-color: #CE4760;
 }
 
 .main-link {
@@ -159,7 +161,8 @@ main {
 
 .gallery-link:hover {
     color: white;
-    background-color: #2c2c2c;
+    border: none;
+    background-color: #CE4760;
 }
 /* End of main styles for about page */
 
