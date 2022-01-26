@@ -29,7 +29,7 @@ body {
 .logo {
     text-decoration: none;
     color: #D17B88;
-    font-size: 2rem;
+    font-size: 4rem;
     text-align: center;
     font-family: 'Permanent Marker', sans-serif;
 }
@@ -330,10 +330,6 @@ label {
 
 /* Media for small screens */
 @media screen and (min-width: 365px) {
-    .logo {
-        font-size: 3.5rem;
-    }
-
     .im-matilda {
         font-size: 6rem;
     }
@@ -358,7 +354,7 @@ label {
     .header {
         display: flex;
         justify-content: space-between;
-        padding: 0 1rem;
+        padding: 0 3rem;
         align-items: center;
     }
 
@@ -401,10 +397,6 @@ label {
 
 /* Responsive for large to extra large screens */
 @media screen and (min-width: 1200px) {
-   
-    .header {
-        padding: 0 2rem;
-    }
 
     .gallery-categories {
         width: 40rem;
