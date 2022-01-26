@@ -248,7 +248,7 @@ main {
 input,
 textarea,
 select {
-    border: 1px solid #1f1f1f;
+    border: 1px solid #2c2c2c;
     border-radius: 0.4rem;
 }
 
@@ -321,8 +321,11 @@ label {
 .footer-icon {
     text-decoration: none;
     font-size: 200%;
-    color: darkslategrey;
+    color: #2c2c2c;
     margin: 10%;
+}
+.footer-icon:hover {
+    color: #D17B88;
 }
 
 /* End of footer styles */

@@ -107,7 +107,7 @@ It provides an image of the artist on large screens and also change layout using
 
 I have found the colors for the website on Coolors.co, in the color palette generator
 
-- Insert image of colors from coolors here
+![Colors](assets/documentation/coolors.png)
 
 #### Fonts
 
