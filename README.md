@@ -35,12 +35,14 @@ The website serves as a portfolio for the artist, it serves people searching for
 - As a user I want to easily find information about the artist
 - As a user I want to be able to find information of what type of work they do
 - As a user I want to easily find where i can view their works
+- As a first time user I want to know how to follow the artist on social media
 
 #### First time visitor perspective Fulfilment
 
 - Following the main page link "get to know me" or following the link in the navigation to "about", the user can easily find their way to information about the artist
 - On the about page, the user can read about the different types of work the artist do, or being familiar with the techuniqs of painting, viewing the gallery one could easily find out which the different types of works are.
 - The gallery page is where the user can view the artist work, there is also a direct link to both acrylic and illustration gallery page on the about page
+- The about page have a direct link to the artists instagram, where the user can follow the artist for the latest updates
 
 #### From a returning visitors perspective
 
@@ -49,7 +51,7 @@ The website serves as a portfolio for the artist, it serves people searching for
 
 #### Returning visitor Fulfilment
 
-- On the about page the user can find information how to order and what is required, following the link provided under the information, the user can fill in the form on the contact page.
+- On the about page the user can find information how to order and what is required to do so, following the link provided under the information, the user can fill in the form on the contact page.
 - On the about page the visitor can find the heading stating "My latest works" and can from the paragraph read that the latest paintings can be viewed on the artist instagram page.
 
 ## UX 5 Planes
@@ -155,13 +157,14 @@ Using the inspector on firefox made me discover the problem, I had set the max-h
 - Testing the responsivness in Chrome and Edge looked good, however, on screens smaller than 850px in firefox and on iphone, the nav was hidden by the main image.
 
 
-## Technologies Used
+## Technologies and resources Used
 
 I have used:
 
 - HTML5 for markup
 - CSS3 for style
 - Google Fonts for fonts
+- Birme for image resizing and changing format 
 - Coolors.co for colors
 - Font Awesome for icons
 - Favicon.io for the favicon 
