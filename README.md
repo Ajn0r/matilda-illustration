@@ -6,7 +6,7 @@ For the live site please click [here](https://ajn0r.github.io/matilda-illustrati
 
 ## Who is the website for?
 
-It’s a website where the user can get to know Matilda and what she does, get inspired and view her work. It is also a good way for the user to be able to get in touch with the artist. The artist is based in Sweden but can send illustrations electronicky if the user would like to purchase one.
+It’s a website for the art interested person, where the user can get to know Matilda and what she does, get inspired and view her work. It is also a good way for the user to be able to get in touch with the artist. The artist is based in Sweden but can send illustrations electronicky if the user would like to purchase one.
 
 ## The owner
 
@@ -71,12 +71,13 @@ The project includes several feauters:
 
 - The website consists of a of total 7 different pages and four different menu options.
 
-Two of the pages is under-categories of the Gallery page and can be found from the gallery page or the about page. 
+Two of the pages is under-categories of the Gallery page and can be found from the gallery page or the about page.
+
 The 7th page is a “dummy” page, which displays when the user fills in and submit the form on the contact page, giving a clear message of that the form has been received.
 The pages are laid out in a logical way, making it easily navigated for the user.
 The about, gallery and contact page all share the same background image, so it provides a sense of familiarity for the user, and making it clear which is the homepage. 
 
- #### Navigation & Footer
+#### Navigation & Footer
 
 - The navigation and footer are the same on all the pages, making the navigation easy for the user.  
 On small screens the navigation is stacking in a column format instead of row, making it easier to use on mobile screens and other small screens.
@@ -85,23 +86,30 @@ The footer consists of one line with icons which is linked to the different soci
 #### Home page
 
 - The home page consists of a background image and a welcome fraise, with a link that invites the user to know the artist better
+- image here
 
 #### About page
 
 - The about page lets the user know some information about the artist, who she is, what she does, how to order a custom painting and where the user can view the artist latest works.
 It also has 4 different links, 3 leading to other pages on the website, and one to the artist Instagram, which opens in a new tab.
 It provides an image of the artist on large screens and also change layout using grid, on smallest screens the image is hidden, and information shown in a column direction.  
+- image here
 
 #### Gallery page
 
+#### Contact page
 
 ### Skeleton Plane
 
-
+- Wireframes here :)
 
 ### Surface plane
 
-- Colors
+#### Colors
+
+I have found the colors for the website on Coolors.co, in the color palette generator
+
+- Insert image of colors from coolors here
 
 #### Fonts
 
@@ -110,7 +118,7 @@ I have found my fonts on Google Font, the ones that i finally decided to use are
 - 'Permantent Marker'
 For header logo and also headings on main and about page
 
-- 'Noto Serif' 
+- 'Noto Serif'
 For all other text
 
 ## Feautures
@@ -118,6 +126,22 @@ For all other text
 ### Existing Feautures
 
 ### Feautures I would like to implement
+
+- Drop down menu for small screens
+
+## Testing
+
+### Browser tersting
+
+### Validators
+
+### Local testing
+
+### Responsivness
+
+### Issues
+
+- Write issues here
 
 ## Technologies Used
 
