@@ -230,21 +230,18 @@ main {
 input,
 textarea,
 select {
-    border: 1px solid #D17B88;
+    border: 1px solid #1f1f1f;
     border-radius: 0.4rem;
 }
-
 label {
     font-size: 2rem;
 }
-
 .contact-page {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-
 .contact-form {
     width: 90%;
     max-width: 60rem;
@@ -263,7 +260,9 @@ label {
 .contact-element {
     margin: 1rem;
 }
-
+.form-hover:hover {
+    border:1px solid #D17B88;
+}
 .form-input {
     padding: 0.8rem;
     width: 100%;
@@ -278,13 +277,6 @@ label {
     min-height: 20rem;
     width: 100%;
 }
-
-.submit-button {
-    padding: 0.6rem;
-    text-transform: capitalize;
-    text-align: center;
-}
-
 .submit-center {
     text-align: center;
 }
