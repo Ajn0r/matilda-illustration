@@ -72,7 +72,7 @@ main {
     width: 100%;
     min-height: 83vh;
     position: relative;
-    margin-top: 9rem;
+    margin-top: 6rem;
 }
 
 /* Start of main styles for first page */
@@ -93,7 +93,6 @@ main {
 
 .to-about-box {
     border: 1px solid #2c2c2c;
-    text-align: center;
     width: 25rem;
     margin: 0 auto;
 
@@ -125,7 +124,7 @@ main {
 .about-container {
     width: 85%;
     height: auto;
-    background-color: rgba(242, 242, 242, 0.8);
+    background-color: rgba(242, 242, 242, 0.9);
     text-align: center;
     padding: 2rem;
     margin: 2rem 0;
@@ -309,17 +308,30 @@ label {
 }
 
 /* End of footer styles */
+
+
 /* Media for small screens */
-@media screen and (min-width: 430px) {
+@media screen and (min-width: 365px) {
+    main {
+        margin-top: 9rem;
+    }
     .logo {
-        font-size: 4rem;
+        font-size: 3.5rem;
+    }
+}
+@media screen and (min-width: 475px) {
+    main {
+        margin-top: 10rem;
+    }
+    .logo {
+        font-size: 4.5rem;
     }
 }
 
 /* Media for medium to large screens */
 @media screen and (min-width: 750px) {
     main {
-        margin-top: 0;
+        margin-top: 1rem;
     }
 
     .header {
@@ -347,7 +359,9 @@ label {
     .about-container {
         font-size: larger;
     }
-
+    .hey-you {
+        font-size: 300%;
+    }
     .gallery-page {
         flex-direction: row;
     }
