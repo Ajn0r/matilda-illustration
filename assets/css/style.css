@@ -207,7 +207,6 @@ main {
     justify-content: center;
     gap: 1rem;
 }
-
 .gallery-images>img {
     width: 85%;
 }
