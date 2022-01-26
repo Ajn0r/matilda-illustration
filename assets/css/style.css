@@ -152,7 +152,7 @@ main {
 }
 
 /* Change style of this! Other colors... */
-.gallery-link {
+.link-box {
     font-size: 110%;
     font-weight: bold;
     text-decoration: none;
@@ -162,7 +162,7 @@ main {
     border-radius: 0.3rem;
 }
 
-.gallery-link:hover {
+.link-box:hover {
     color: #fff;
     border: none;
     background-color: #D17B88;
@@ -267,12 +267,10 @@ label {
     padding: 0.8rem;
     width: 100%;
 }
-
 .form-select {
     padding: 0.3rem;
     width: 100%;
 }
-
 .textarea {
     min-height: 20rem;
     width: 100%;
