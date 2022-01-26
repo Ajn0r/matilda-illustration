@@ -24,7 +24,6 @@ body {
 .header {
     width: 100%;
     min-height: 10vh;
-    max-height: 16vh;
 }
 
 .logo {
@@ -73,7 +72,7 @@ main {
     width: 100%;
     min-height: 83vh;
     position: relative;
-    margin-top: 6rem;
+    margin-top: 1rem;
 }
 
 /* Start of main styles for first page */
@@ -331,10 +330,6 @@ label {
 
 /* Media for small screens */
 @media screen and (min-width: 365px) {
-    main {
-        margin-top: 9rem;
-    }
-
     .logo {
         font-size: 3.5rem;
     }
@@ -350,26 +345,16 @@ label {
 }
 
 @media screen and (min-width: 475px) {
-    main {
-        margin-top: 10rem;
-    }
-
     .logo {
         font-size: 4.5rem;
     }
-
     .im-matilda {
         margin-top: 35%;
     }
-
 }
 
 /* Media for medium to large screens */
 @media screen and (min-width: 750px) {
-    main {
-        margin-top: 1rem;
-    }
-
     .header {
         display: flex;
         justify-content: space-between;

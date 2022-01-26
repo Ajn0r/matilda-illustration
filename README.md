@@ -121,27 +121,36 @@ For header logo and also headings on main and about page
 - 'Noto Serif'
 For all other text
 
-## Feautures
-
-### Existing Feautures
-
-### Feautures I would like to implement
+## Feautures I would like to implement in the future
 
 - Drop down menu for small screens
+- 
 
 ## Testing
 
-### Browser tersting
+### Browser testing
+
+- Google Chrome
+- Windows Edge
+- Safari
+- Firefox
 
 ### Validators
+
+
 
 ### Local testing
 
 ### Responsivness
 
+- Testing the responsivness in Chrome and Edge looked good, however, on screens smaller than 850px in firefox and on iphone, the nav was hidden by the main image.
+
+Using the inspector on firefox made me discover the problem, I had set the max-height for the header to be 16vh, and tried to get the navbar to fit using margin-top, which didn't do the trick.
+
 ### Issues
 
-- Write issues here
+- Testing the responsivness in Chrome and Edge looked good, however, on screens smaller than 850px in firefox and on iphone, the nav was hidden by the main image.
+
 
 ## Technologies Used
 
