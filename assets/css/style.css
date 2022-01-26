@@ -29,13 +29,16 @@ body {
 
 .logo {
     text-decoration: none;
-    color: black;
+    color: #D17B88;
     font-size: 2rem;
     text-align: center;
 }
+.logo:hover {
+color: #2c2c2c;
+}
 
 .active {
-    border-bottom: 0.1rem solid black;
+    border-bottom: 0.1rem solid #2c2c2c;
 }
 
 .nav-list {
@@ -44,14 +47,14 @@ body {
 }
 
 .nav-list-link {
-    color: black;
+    color: #2c2c2c;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 2rem;
 }
 .nav-list-link:hover {
-    border-bottom: 1px solid #CE4760;
-    color: #CE4760;
+    border-bottom: 1px solid #D17B88;
+    color: #D17B88;
 }
 .nav-list-item {
     margin: 0.7rem;
@@ -85,7 +88,7 @@ main {
 }
 
 .to-about-box {
-    border: 1px solid black;
+    border: 1px solid #2c2c2c;
     text-align: center;
     width: 25rem;
     margin: 0 auto;
@@ -93,8 +96,8 @@ main {
 
 .to-about-box:hover {
     border: none;
-    color: white;
-    background-color: #CE4760;
+    color: #f2f2f2;
+    background-color: #D17B88;
 }
 
 .main-link {
@@ -117,7 +120,7 @@ main {
 .about-container {
     width: 85%;
     height: auto;
-    background-color: rgba(243, 243, 243, 0.8);
+    background-color: rgba(242, 242, 242, 0.8);
     text-align: center;
     padding: 2rem 4rem;
     margin: 2rem 0;
@@ -160,9 +163,9 @@ main {
 }
 
 .gallery-link:hover {
-    color: white;
+    color: #fff;
     border: none;
-    background-color: #CE4760;
+    background-color: #D17B88;
 }
 /* End of main styles for about page */
 
@@ -227,7 +230,7 @@ main {
 input,
 textarea,
 select {
-    border: 1px solid grey;
+    border: 1px solid #D17B88;
     border-radius: 0.4rem;
 }
 
@@ -246,7 +249,7 @@ label {
     width: 90%;
     max-width: 60rem;
     height: auto;
-    background-color: rgba(243, 243, 243, 0.8);
+    background-color: rgba(242, 242, 242, 0.8);
     padding: 3rem;
     margin: 2rem 1rem;
     border-radius: 0.5rem;
