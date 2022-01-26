@@ -25,7 +25,6 @@ body {
     width: 100%;
     min-height: 10vh;
     max-height: 16vh;
-
 }
 
 .logo {
@@ -34,7 +33,6 @@ body {
     font-size: 2rem;
     text-align: center;
     font-family: 'Permanent Marker', sans-serif;
-
 }
 
 .logo:hover {
@@ -101,7 +99,6 @@ main {
     margin-top: 1rem;
     border-radius: 0.2rem;
     padding: 0.5rem;
-
 }
 
 .to-about-box:hover {
@@ -350,124 +347,127 @@ label {
         text-decoration: none;
         font-size: 3rem;
     }
+}
 
-    @media screen and (min-width: 475px) {
-        main {
-            margin-top: 10rem;
-        }
+@media screen and (min-width: 475px) {
+    main {
+        margin-top: 10rem;
+    }
 
-        .logo {
-            font-size: 4.5rem;
-        }
+    .logo {
+        font-size: 4.5rem;
+    }
 
-        .im-matilda {
-            margin-top: 35%;
-        }
+    .im-matilda {
+        margin-top: 35%;
+    }
 
-        /* Media for medium to large screens */
-        @media screen and (min-width: 750px) {
-            main {
-                margin-top: 1rem;
-            }
+}
 
-            .header {
-                display: flex;
-                justify-content: space-between;
-                padding: 0 1rem;
-                align-items: center;
-            }
+/* Media for medium to large screens */
+@media screen and (min-width: 750px) {
+    main {
+        margin-top: 1rem;
+    }
 
-            .nav-list {
-                display: flex;
-                flex-direction: row;
-                justify-content: end;
-                gap: 2rem;
-            }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1rem;
+        align-items: center;
+    }
 
-            .nav-list-item {
-                margin: 0;
-            }
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        gap: 2rem;
+    }
 
-            .im-matilda {
-                margin-top: 25%;
-            }
+    .nav-list-item {
+        margin: 0;
+    }
 
-            .about-container {
-                font-size: larger;
-            }
+    .im-matilda {
+        margin-top: 25%;
+    }
 
-            .hey-you {
-                font-size: 300%;
-            }
+    .about-container {
+        font-size: larger;
+    }
 
-            .gallery-page {
-                flex-direction: row;
-            }
+    .hey-you {
+        font-size: 300%;
+    }
 
-            .gallery-categories {
-                width: 30rem;
-                height: 30rem;
-            }
+    .gallery-page {
+        flex-direction: row;
+    }
 
-            .gallery-images>img {
-                width: 47%;
-            }
-        }
+    .gallery-categories {
+        width: 30rem;
+        height: 30rem;
+    }
 
-        /* Responsive for large to extra large screens */
-        @media screen and (min-width: 1200px) {
-            .header {
-                padding: 0 2rem;
-            }
+    .gallery-images>img {
+        width: 47%;
+    }
+}
 
-            .gallery-categories {
-                width: 40rem;
-                height: 40rem;
+/* Responsive for large to extra large screens */
+@media screen and (min-width: 1200px) {
+   
+    .header {
+        padding: 0 2rem;
+    }
 
-            }
+    .gallery-categories {
+        width: 40rem;
+        height: 40rem;
+    }
 
-            .painter-image {
-                display: block;
-            }
+    .painter-image {
+        display: block;
+    }
 
-            /* Grid layout setup for about page on large screens */
-            .about-container {
-                width: 80%;
-                display: grid;
-                grid-template-areas:
-                    'about img'
-                    'styles img'
-                    'styles order'
-                    'insta insta';
-                gap: 1rem;
-            }
+    /* Grid layout setup for about page on large screens */
+    .about-container {
+        width: 80%;
+        display: grid;
+        grid-template-areas:
+            'about img'
+            'styles img'
+            'styles order'
+            'insta insta';
+        gap: 1rem;
+    }
 
-            .about-me {
-                grid-area: about;
-            }
+    .about-me {
+        grid-area: about;
+    }
 
-            .painter-image {
-                grid-area: img;
-            }
+    .painter-image {
+        grid-area: img;
+    }
 
-            .paint-styles {
-                grid-area: styles;
-            }
+    .paint-styles {
+        grid-area: styles;
+    }
 
-            .custom-order {
-                grid-area: order;
-            }
+    .custom-order {
+        grid-area: order;
+    }
 
-            .latest-works {
-                grid-area: insta;
-            }
+    .latest-works {
+        grid-area: insta;
+    }
 
-            .custom-order {
-                width: 80%;
-                margin: 0 auto;
-            }
+    .custom-order {
+        width: 80%;
+        margin: 0 auto;
+    }
 
-            .gallery-images>img {
-                width: 24%;
-            }
-        }
+    .gallery-images>img {
+        width: 24%;
+    }
+}
