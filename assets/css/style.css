@@ -127,13 +127,13 @@ main {
     height: auto;
     background-color: rgba(242, 242, 242, 0.8);
     text-align: center;
-    padding: 2rem 4rem;
+    padding: 2rem;
     margin: 2rem 0;
     line-height: 2.7rem;
 }
 
 .about-container>div {
-    padding: 1.5rem;
+    padding: 1rem 0;
 }
 .hey-you {
     font-size: larger;
@@ -310,7 +310,7 @@ label {
 
 /* End of footer styles */
 /* Media for small screens */
-@media screen and (min-width: 348px) {
+@media screen and (min-width: 430px) {
     .logo {
         font-size: 4rem;
     }
