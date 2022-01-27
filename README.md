@@ -103,7 +103,7 @@ The navigation on smaller screens, here shown with the logo aswell
 The footer consist of 3 clickable symbols for social media platforms, Facebook, Instagram and Twitter, all opening in a new tab.
 There is a hover effect so that the icon changes color when the user hover it.
 
-![footer](assets/documentation/footer.png)
+![footer](assets/documentation/Footer.png)
 
 
 #### Home page
