@@ -132,7 +132,18 @@ It provides an image of the artist on large screens and also change layout using
 
 #### Contact page
 
+The contact page consist of a form where the user can get in touch with the artist. 
+Name, email and message is required to be able to submit the form, and the user can also choose from a drop down menu the reason for contacting the artist.
+
+Once the form is filled and submitted the user will be directed to a "dummy page" to make it visibly clear that the form is recived.
+
+The contact page on large screens 
+
 ![Contact page](assets/documentation/contact-page.png)
+
+The "dummy page"
+
+![Contact dummy page](assets/documentation/dummy-contact-page.png)
 
 ### Skeleton Plane
 
