@@ -108,7 +108,8 @@ There is a hover effect so that the icon changes color when the user hover it.
 
 #### Home page
 
-- The home page consists of a background image and a welcome fraise, with a link that invites the user to get to know the artist better
+- The home page consists of a background image and a welcome fraise, with a link that invites the user to get to know the artist better.
+The 'Get to know me' button has an hover effect making the text white and the box pink, this is the same as all the buttons on the other pages.
 
 ![Home page](assets/documentation/homepage.png)
 
