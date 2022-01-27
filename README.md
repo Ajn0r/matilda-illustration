@@ -64,6 +64,8 @@ The website serves as a portfolio for the artist, it serves people searching for
 
 ### Strategy Plane
 
+
+
 ### Scope Plane
 
 The project includes several feauters:
@@ -113,22 +115,31 @@ The navigation on smaller screens, here shown with the logo aswell
 It also has 4 different links, 3 leading to other pages on the website, and one to the artist Instagram, which opens in a new tab.
 It provides an image of the artist on large screens and also change layout using grid, on smallest screens the image is hidden, and information shown in a column direction.  
 
-- Part of the about page on large screens
+Part of the about page on large screens
 
 ![about the artist](assets/documentation/about-page.png)
 
-- On tablets
+On tablets
 
 ![about the artist on tablets](assets/documentation/about-tablet.png)
 
 #### Gallery page
 
-- The Gallery page consist of two categories
+- The Gallery page consist of two categories.
     - Illustrations
-    - Acrylic
-
+    - Acrylics
 
 ![Gallery page](assets/documentation/gallery-page.png)
+
+If clicked on, the users are taken to the gallery for the chosen category. 
+On large screens the images are shown 4 in a row, on tablets it 2 and on mobile 1.
+
+![illustration gallery](assets/documentation/illustration-gallery.png)
+
+On the bottom of each of the categories there is a link that takes the user back to the first page of the gallery.
+
+![get back to gallery buttom](assets/documentation/gallery-bottom.png)
+
 
 #### Contact page
 
@@ -182,7 +193,7 @@ It is hard knowing when to stop, the finished website today is where I had to dr
 - Connect the contact form to Matildas email.
 - Add a file type input on the form, if the user wants to order a painting, they can easily submit a image for the artist to paint by directly in the form.
 - Embedd the artists Instagram page on the about page instead of the "My latest work" text.
-
+- Im sure some of the text on the site could be improved as english is not my native language.
 
 ## Testing
 
