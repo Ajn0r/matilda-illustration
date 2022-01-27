@@ -41,8 +41,12 @@ The website serves as a portfolio for the artist, it serves people searching for
 
 - Following the main page link "get to know me" or following the link in the navigation to "about", the user can easily find their way to information about the artist
 - On the about page, the user can read about the different types of work the artist do, or being familiar with the techuniqs of painting, viewing the gallery one could easily find out which the different types of works are.
+
+![about the artists works](assets/documentation/about-tech.png)
+
 - The gallery page is where the user can view the artist work, there is also a direct link to both acrylic and illustration gallery page on the about page
 - The about page have a direct link to the artists instagram, where the user can follow the artist for the latest updates
+
 
 #### From a returning visitors perspective
 
@@ -53,6 +57,8 @@ The website serves as a portfolio for the artist, it serves people searching for
 
 - On the about page the user can find information how to order and what is required to do so, following the link provided under the information, the user can fill in the form on the contact page.
 - On the about page the visitor can find the heading stating "My latest works" and can from the paragraph read that the latest paintings can be viewed on the artist instagram page.
+
+![latest works](assets/documentation/latest-work.png)
 
 ## UX 5 Planes
 
@@ -98,7 +104,8 @@ The navigation on smaller screens, here shown with the logo aswell
 #### Home page
 
 - The home page consists of a background image and a welcome fraise, with a link that invites the user to know the artist better
-- image here
+
+![Home page](assets/documentation/homepage.png)
 
 #### About page
 
