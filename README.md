@@ -231,7 +231,7 @@ Firefox developer tool have been used at the end stage for validate it looks goo
 
 Using the inspector on firefox made me discover the problem, I had set the max-height for the header to be 16vh, and tried to get the navbar to fit using margin-top, which didn't do the trick. The problem was resolved by removing the max-height on the header.
 
-## Technologies and resources Used
+## Technologies and resources used
 
 I have used:
 
@@ -245,8 +245,9 @@ I have used:
 - Favicon.io for the favicon
 - Git for version control
 - Github for keeping the files, documents and depolyment of the site
-
-
+- Kevin Powell's youtube channel for learning the basic of css flexbox and css grid
+- W3 School
+- Code Institute course material
 
 ## Media
 
