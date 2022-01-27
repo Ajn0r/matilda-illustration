@@ -40,7 +40,7 @@ The website serves as a portfolio for the artist, it serves people searching for
 #### First time visitor perspective Fulfilment
 
 - Following the main page link "get to know me" or following the link in the navigation to "about", the user can easily find their way to information about the artist
-- On the about page, the user can read about the different types of work the artist do, or being familiar with the techuniqs of painting, viewing the gallery one could easily find out which the different types of works are.
+- On the about page, the user can read about the different types of work the artist do, or being familiar with the techuniques of painting, viewing the gallery one could easily find out which the different types of works are.
 
 ![about the artists works](assets/documentation/about-tech.png)
 
@@ -103,7 +103,7 @@ The navigation on smaller screens, here shown with the logo aswell
 
 #### Home page
 
-- The home page consists of a background image and a welcome fraise, with a link that invites the user to know the artist better
+- The home page consists of a background image and a welcome fraise, with a link that invites the user to get to know the artist better
 
 ![Home page](assets/documentation/homepage.png)
 
@@ -112,13 +112,27 @@ The navigation on smaller screens, here shown with the logo aswell
 - The about page lets the user know some information about the artist, who she is, what she does, how to order a custom painting and where the user can view the artist latest works.
 It also has 4 different links, 3 leading to other pages on the website, and one to the artist Instagram, which opens in a new tab.
 It provides an image of the artist on large screens and also change layout using grid, on smallest screens the image is hidden, and information shown in a column direction.  
-- image here
+
+- Part of the about page on large screens
+
+![about the artist](assets/documentation/about-page.png)
+
+- On tablets
+
+![about the artist on tablets](assets/documentation/about-tablet.png)
 
 #### Gallery page
 
-- The Gallery page
+- The Gallery page consist of two categories
+    - Illustrations
+    - Acrylic
+
+
+![Gallery page](assets/documentation/gallery-page.png)
 
 #### Contact page
+
+![Contact page](assets/documentation/contact-page.png)
 
 ### Skeleton Plane
 
