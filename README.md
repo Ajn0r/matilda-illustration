@@ -85,6 +85,16 @@ The about, gallery and contact page all share the same background image, so it p
 On small screens the navigation is stacking in a column format instead of row, making it easier to use on mobile screens and other small screens.
 The footer consists of one line with icons which is linked to the different social media platforms, if the users click on them, they will open in a new tab.
 
+Navigation menu on larger screens, the page that the user is currently on has an underline, and when hovered the link change color to pink and it also gets an underline.
+
+The image shows that the user is on the home page, and are hovering over the gallery page.
+
+![navigation](assets/documentation/navbar.png)
+
+The navigation on smaller screens, here shown with the logo aswell
+
+![navigation mobile](assets/documentation/header-mobile.png)
+
 #### Home page
 
 - The home page consists of a background image and a welcome fraise, with a link that invites the user to know the artist better
@@ -98,6 +108,7 @@ It provides an image of the artist on large screens and also change layout using
 - image here
 
 #### Gallery page
+
 - The Gallery page
 
 #### Contact page
@@ -107,9 +118,8 @@ It provides an image of the artist on large screens and also change layout using
 Wireframes were made for each of the pages, both for desktop and mobile.
 A slight change on the about page was done after the wireframes, and that was the "latest work" section with the link to the artist instagram.
 
-- Desktop wireframes
+![WF gallery Desktop](assets/documentation/wireframes/index-desktop-wireframe.png)
 
-![WF gallery Desktop](assets/documentation/wireframes/gallery-desktop-wireframe.png)
 [All Wireframes](assets/documentation/wireframes)
 
 ### Surface plane
@@ -135,7 +145,7 @@ For all other text
 ## Feautures I would like to implement in the future
 
 - Drop down menu for small screens
-- 
+- An link directly to instagram, as an iframe.
 
 ## Testing
 
@@ -154,19 +164,21 @@ The W3C (Jigsaw) Markup validator and W3C CSS validator Services has been used t
 ![Validated index](assets/documentation/html-check-index.png)
 ![Css validated](assets/documentation/css-validator.png)
 
-
 ### Local testing
+
+Local testing of all links, contact form and functionallaty of the website has been done.
+A bug was discovered when trying to reach the contact page from the about page, it was missing an update of the href from # to the actual file.
 
 ### Responsivness
 
+The Chrome developer tool have been used extensively to check the responsivness of the website.
+Firefox developer tool have been used at the end stage for validate it looks good in other browsers aswell.
+
+#### Issues
+
 - Testing the responsivness in Chrome and Edge looked good, however, on screens smaller than 850px in firefox and on iphone, the nav was hidden by the main image.
 
-Using the inspector on firefox made me discover the problem, I had set the max-height for the header to be 16vh, and tried to get the navbar to fit using margin-top, which didn't do the trick.
-
-### Issues
-
-- Testing the responsivness in Chrome and Edge looked good, however, on screens smaller than 850px in firefox and on iphone, the nav was hidden by the main image.
-
+Using the inspector on firefox made me discover the problem, I had set the max-height for the header to be 16vh, and tried to get the navbar to fit using margin-top, which didn't do the trick. The problem was resolved by removing the max-height on the header.
 
 ## Technologies and resources Used
 
@@ -175,10 +187,10 @@ I have used:
 - HTML5 for markup
 - CSS3 for style
 - Google Fonts for fonts
-- Birme for image resizing and changing format 
+- Birme for image resizing and changing format
 - Coolors.co for colors
 - Font Awesome for icons
-- Favicon.io for the favicon 
+- Favicon.io for the favicon
 - Git for version control
 - Github for keeping the files, documents and depolyment of the site
 
