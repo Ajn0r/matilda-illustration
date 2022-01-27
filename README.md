@@ -142,6 +142,12 @@ For all other text
 
 ### Validators
 
+The W3C (Jigsaw) Markup validator and W3C CSS validator Services has been used to validate each page of the website to ensure that there were no errors in the code.
+
+![Validated](assets/documentation/html-check-about.png)
+![Validated index](assets/documentation/html-check-index.png)
+![Css validated](assets/documentation/css-validator.png)
+
 
 ### Local testing
 
