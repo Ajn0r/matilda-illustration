@@ -8,7 +8,7 @@ For the live site please click [here](https://ajn0r.github.io/matilda-illustrati
 
 ## Who is the website for?
 
-It’s a website for the art interested person, where the user can get to know Matilda and what she does, get inspired and view her work. It is also a good way for the user to be able to get in touch with the artist. The artist is based in Sweden but can send illustrations electronicky if the user would like to purchase one.
+It’s a website for the art interested person, where the user can get to know Matilda and what she does, get inspired and view her work. It is also a good way for the user to be able to get in touch with the artist. The artist is based in Sweden but can send illustrations electronicallyß if the user would like to purchase one.
 
 ## The owner
 
@@ -144,17 +144,25 @@ For all other text
 
 ## Feautures I would like to implement in the future
 
-- Drop down menu for small screens
-- An link directly to instagram, as an iframe.
+It is hard knowing when to stop, the finished website today is where I had to draw a line in order to reach my submission date. There is however a few things I would like to implement in the future, some I will need more knowledge before I can implement, for others I just need more time.
+
+- Drop down menu for small screens instead of the column version.
+- Connect the contact form to Matildas email.
+- Add a file type input on the form, if the user wants to order a painting, they can easily submit a image for the artist to paint by directly in the form.
+- Embedd the artists Instagram page on the about page instead of the "My latest work" text.
+
 
 ## Testing
 
 ### Browser testing
 
+Browsers that the website has been tested on: 
+
 - Google Chrome
 - Windows Edge
 - Safari
 - Firefox
+
 
 ### Validators
 
@@ -188,16 +196,19 @@ I have used:
 - CSS3 for style
 - Google Fonts for fonts
 - Birme for image resizing and changing format
+- TinyPng for some of the images resizing
 - Coolors.co for colors
 - Font Awesome for icons
 - Favicon.io for the favicon
 - Git for version control
 - Github for keeping the files, documents and depolyment of the site
 
+
+
 ## Media
 
 - Unsplash for all background images
-- All other images are from the Artist herself, Matilda Andersson
+- All other images are from the artist herself, Matilda Andersson
 
 ## The future for the website
 
