@@ -8,7 +8,7 @@ For the live site please click [here](https://ajn0r.github.io/matilda-illustrati
 
 ## Who is the website for?
 
-It’s a website for the art interested person, where the user can get to know Matilda and what she does, get inspired and view her work. It is also a good way for the user to be able to get in touch with the artist. 
+It’s a website for the art interested person, where the user can get to know Matilda and what she does, get inspired and view her work. It is also a good way for the user to be able to get in touch with the artist.
 The website is also for the artist, it's her portfolio website.
 The artist is based in Sweden but can send illustrations electronicallyß if the user would like to purchase one.
 
@@ -80,7 +80,7 @@ Two of the pages is under-categories of the Gallery page and can be found from t
 
 The 7th page is a “dummy” page, which displays when the user fills in and submit the form on the contact page, giving a clear message of that the form has been received.
 The pages are laid out in a logical way, making it easily navigated for the user.
-The about, gallery and contact page all share the same background image, so it provides a sense of familiarity for the user, and making it clear which is the homepage. 
+The about, gallery and contact page all share the same background image, so it provides a sense of familiarity for the user, and making it clear which is the homepage.
 
 #### Navigation & Footer
 
@@ -102,7 +102,6 @@ The footer consist of 3 clickable symbols for social media platforms, Facebook, 
 There is a hover effect so that the icon changes color when the user hover it.
 
 ![footer](assets/documentation/Footer.png)
-
 
 #### Home page
 
@@ -128,12 +127,12 @@ On tablets
 #### Gallery page
 
 - The Gallery page consist of two categories.
-    - Illustrations
-    - Acrylics
+- Illustrations
+- Acrylics
 
 ![Gallery page](assets/documentation/gallery-page.png)
 
-If clicked on, the users are taken to the gallery for the chosen category. 
+If clicked on, the users are taken to the gallery for the chosen category.
 On large screens the images are shown 4 in a row, on tablets it 2 and on mobile 1.
 
 ![illustration gallery](assets/documentation/illustration-gallery.png)
@@ -142,15 +141,14 @@ On the bottom of each of the categories there is a link that takes the user back
 
 ![get back to gallery buttom](assets/documentation/gallery-bottom.png)
 
-
 #### Contact page
 
-The contact page consist of a form where the user can get in touch with the artist. 
+The contact page consist of a form where the user can get in touch with the artist.
 Name, email and message is required to be able to submit the form, and the user can also choose from a drop down menu the reason for contacting the artist.
 
 Once the form is filled and submitted the user will be directed to a "dummy page" to make it visibly clear that the form is recived.
 
-The contact page on large screens 
+The contact page on large screens
 
 ![Contact page](assets/documentation/contact-page.png)
 
@@ -175,7 +173,7 @@ I have found the colors for the website on Coolors.co
 
 ![Colors](assets/documentation/coolors.png)
 
-Since all of the pages have a background I decided to go with different scales of black and white and also a nice pink color 
+Since all of the pages have a background I decided to go with different scales of black and white and also a nice pink color
 
 ### Fonts
 
@@ -206,7 +204,7 @@ It is hard knowing when to stop, the finished website today is where I had to dr
 
 ### Browser testing
 
-Browsers that the website has been tested on: 
+Browsers that the website has been tested on:
 
 - Google Chrome
 - Windows Edge
@@ -215,8 +213,8 @@ Browsers that the website has been tested on:
 
 #### Issues
 
-One issue on older Safari browsers is that webp format images are not supported, at least not on my old macbook. 
-Testing to not format images to make it work on older versions of safari did not weigh up to the advantages of webp formats, since the website hold many images and safari has supported webp since 2020,all that is needed is an update of safari. 
+One issue on older Safari browsers is that webp format images are not supported, at least not on my old macbook.
+Testing to not format images to make it work on older versions of safari did not weigh up to the advantages of webp formats, since the website hold many images and safari has supported webp since 2020,all that is needed is an update of safari.
 
 ### Lighthouse
 
@@ -227,7 +225,6 @@ Lighthouse on desktop
 Lighthouse score on mobile
 
 ![lighthouse mobile](assets/documentation/lighthouse-mobile.png)
-
 
 ### Validators
 
@@ -247,7 +244,7 @@ A bug was discovered when trying to reach the contact page from the about page, 
 The Chrome developer tool have been used extensively to check the responsivness of the website.
 Firefox developer tool have been used at the end stage for validate it looks good in other browsers aswell.
 
-#### Issues
+#### Issues discovered
 
 - Testing the responsivness in Chrome and Edge looked good, however, on screens smaller than 850px in firefox and on iphone, the nav was hidden by the main image.
 
@@ -273,9 +270,6 @@ Et volià! The site was deployed!
 
 ![deployed site](assets/documentation/deployed-site.png)
 
-
-
-
 ## Technologies and resources used
 
 I have used:
@@ -291,7 +285,7 @@ I have used:
 - Git for version control
 - Github for keeping the files, documents and depolyment of the site
 - Kevin Powell's Youtube channel for learning the basics of CSS grid & flexbox.
-- W3 Scool 
+- W3 Scool
 - Code Institure course material
 - Code Institute Slack channel
 
