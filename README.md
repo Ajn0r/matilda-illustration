@@ -109,10 +109,8 @@ A slight change on the about page was done after the wireframes, and that was th
 
 - Desktop wireframes
 
-![WF index Desktop](assets/documentation/main-desktop-wireframe.png)
-![WF about Desktop](assets/documentation/about-desktop-wireframe.png)
-![WF gallery Desktop](assets/documentation/gallery-desktop-wireframe.png)
-![WF contact Desktop](assets/documentation/contact-desktop-wireframe.png)
+![WF gallery Desktop](assets/documentation/wireframes/gallery-desktop-wireframe.png)
+[All Wireframes](assets/documentation/wireframes)
 
 ### Surface plane
 
