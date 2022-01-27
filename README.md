@@ -50,6 +50,7 @@ The website serves as a portfolio for the artist, it serves people searching for
 - The about page have a direct link to the artists instagram, where the user can follow the artist for the latest updates
 
 
+
 #### From a returning visitors perspective
 
 - As a returning visitor i might want to order a custom painting, and want to be able to find information on how to go about
@@ -98,6 +99,12 @@ The image shows that the user is on the home page, and are hovering over the gal
 The navigation on smaller screens, here shown with the logo aswell
 
 ![navigation mobile](assets/documentation/header-mobile.png)
+
+The footer consist of 3 clickable symbols for social media platforms, Facebook, Instagram and Twitter, all opening in a new tab.
+There is a hover effect so that the icon changes color when the user hover it.
+
+![footer](assets/documentation/footer.png)
+
 
 #### Home page
 
@@ -157,7 +164,7 @@ The "dummy page"
 Wireframes were made for each of the pages, both for desktop and mobile.
 A slight change on the about page was done after the wireframes, and that was the "latest work" section with the link to the artist instagram.
 
-![WF gallery Desktop](assets/documentation/wireframes/main-desktop-wireframe.png)
+![WF gallery Desktop](assets/documentation/wireframes/about-desktop-wireframe.png)
 
 [All Wireframes](assets/documentation/wireframes)
 
