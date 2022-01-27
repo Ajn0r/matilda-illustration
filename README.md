@@ -249,15 +249,9 @@ I have used:
 - Favicon.io for the favicon
 - Git for version control
 - Github for keeping the files, documents and depolyment of the site
-<<<<<<< HEAD
 - Kevin Powell's Youtube channel for learning the basics of CSS grid & flexbox.
 - W3 Scool 
 - Code Institure course material
-=======
-- Kevin Powell's youtube channel for learning the basic of css flexbox and css grid
-- W3 School
-- Code Institute course material
->>>>>>> 3830b42841b30e8fe5bf9c3b44a40a88c5709d54
 
 ## Media
 
