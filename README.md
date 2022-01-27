@@ -8,7 +8,9 @@ For the live site please click [here](https://ajn0r.github.io/matilda-illustrati
 
 ## Who is the website for?
 
-It’s a website for the art interested person, where the user can get to know Matilda and what she does, get inspired and view her work. It is also a good way for the user to be able to get in touch with the artist. The artist is based in Sweden but can send illustrations electronicallyß if the user would like to purchase one.
+It’s a website for the art interested person, where the user can get to know Matilda and what she does, get inspired and view her work. It is also a good way for the user to be able to get in touch with the artist. 
+The website is also for the artist, it's her portfolio website.
+The artist is based in Sweden but can send illustrations electronicallyß if the user would like to purchase one.
 
 ## The owner
 
