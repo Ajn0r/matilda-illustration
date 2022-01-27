@@ -60,13 +60,7 @@ The website serves as a portfolio for the artist, it serves people searching for
 
 ![latest works](assets/documentation/latest-work.png)
 
-## UX 5 Planes
-
-### Strategy Plane
-
-
-
-### Scope Plane
+## Feauters
 
 The project includes several feauters:
 
@@ -77,7 +71,7 @@ The project includes several feauters:
 - link to instagram
 - several links on the about page, making the navigation easy and effective
 
-### Structure Plane
+### Structure
 
 - The website consists of a of total 7 different pages and four different menu options.
 
@@ -156,7 +150,7 @@ The "dummy page"
 
 ![Contact dummy page](assets/documentation/dummy-contact-page.png)
 
-### Skeleton Plane
+## Wireframes
 
 Wireframes were made for each of the pages, both for desktop and mobile.
 A slight change on the about page was done after the wireframes, and that was the "latest work" section with the link to the artist instagram.
@@ -165,9 +159,9 @@ A slight change on the about page was done after the wireframes, and that was th
 
 [All Wireframes](assets/documentation/wireframes)
 
-### Surface plane
+### Color & Fonts
 
-#### Colors
+### Colors
 
 I have found the colors for the website on Coolors.co
 
@@ -175,7 +169,7 @@ I have found the colors for the website on Coolors.co
 
 Since all of the pages have a background I decided to go with different scales of black and white and also a nice pink color 
 
-#### Fonts
+### Fonts
 
 I have found my fonts on Google Font, the ones that i finally decided to use are:
 
@@ -206,10 +200,18 @@ Browsers that the website has been tested on:
 - Safari
 - Firefox
 
+#### Issues
+
+One issue on older Safari browsers is that webp format images are not supported, at least not on my old macbook. 
+Testing to not format images to make it work on older versions of safari did not weigh up to the advantages of webp formats, since the website hold many images and safari has supported webp since 2020,all that is needed is an update of safari. 
+
+### Lighthouse
+
+
 
 ### Validators
 
-The W3C (Jigsaw) Markup validator and W3C CSS validator Services has been used to validate each page of the website to ensure that there were no errors in the code.
+The W3C Markup validator and W3C CSS validator Services has been used to validate each page of the website to ensure that there were no errors in the code.
 
 ![Validated](assets/documentation/html-check-about.png)
 ![Validated index](assets/documentation/html-check-index.png)
@@ -245,8 +247,9 @@ I have used:
 - Favicon.io for the favicon
 - Git for version control
 - Github for keeping the files, documents and depolyment of the site
-
-
+- Kevin Powell's Youtube channel for learning the basics of CSS grid & flexbox.
+- W3 Scool 
+- Code Institure course material
 
 ## Media
 
