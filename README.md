@@ -104,7 +104,15 @@ It provides an image of the artist on large screens and also change layout using
 
 ### Skeleton Plane
 
-- Wireframes here :)
+Wireframes were made for each of the pages, both for desktop and mobile.
+A slight change on the about page was done after the wireframes, and that was the "latest work" section with the link to the artist instagram.
+
+- Desktop wireframes
+
+![WF index Desktop](assets/documentation/main-desktop-wireframe.png)
+![WF about Desktop](assets/documentation/about-desktop-wireframe.png)
+![WF gallery Desktop](assets/documentation/gallery-desktop-wireframe.png)
+![WF contact Desktop](assets/documentation/contact-desktop-wireframe.png)
 
 ### Surface plane
 
