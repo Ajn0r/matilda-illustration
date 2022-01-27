@@ -49,8 +49,6 @@ The website serves as a portfolio for the artist, it serves people searching for
 - The gallery page is where the user can view the artist work, there is also a direct link to both acrylic and illustration gallery page on the about page
 - The about page have a direct link to the artists instagram, where the user can follow the artist for the latest updates
 
-
-
 #### From a returning visitors perspective
 
 - As a returning visitor i might want to order a custom painting, and want to be able to find information on how to go about
@@ -189,6 +187,11 @@ For header logo and also headings on main and about page
 - 'Noto Serif'
 For all other text
 
+## Media
+
+- Unsplash for all background images
+- All other images are from the artist herself, Matilda Andersson
+
 ## Feautures I would like to implement in the future
 
 It is hard knowing when to stop, the finished website today is where I had to draw a line in order to reach my submission date. There is however a few things I would like to implement in the future, some I will need more knowledge before I can implement, for others I just need more time.
@@ -217,6 +220,11 @@ Testing to not format images to make it work on older versions of safari did not
 
 ### Lighthouse
 
+Lighthouse on desktop
+![lighthouse desktop](assets/documentation/lighthouse-desktop.png)
+
+Lighthouse score on mobile
+![lighthouse mobile](assets/documentation/lighthouse-mobile.png)
 
 
 ### Validators
@@ -260,11 +268,13 @@ I have used:
 - Kevin Powell's Youtube channel for learning the basics of CSS grid & flexbox.
 - W3 Scool 
 - Code Institure course material
+- Code Institute Slack channel
 
-## Media
+## Special thanks to
 
-- Unsplash for all background images
-- All other images are from the artist herself, Matilda Andersson
+- My mentor at Code Institue Spencer Barriball
+- Matilda Andersson for letting me use her work
+- Kevin Powell for an easy to understand tutorial on CSS Grid & Flexbox
 
 ## The future for the website
 
