@@ -324,6 +324,7 @@ label {
     color: #2c2c2c;
     margin: 10%;
 }
+
 .footer-icon:hover {
     color: #D17B88;
 }
@@ -347,6 +348,7 @@ label {
     .logo {
         font-size: 4.5rem;
     }
+
     .im-matilda {
         margin-top: 35%;
     }
