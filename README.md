@@ -8,7 +8,9 @@ For the live site please click [here](https://ajn0r.github.io/matilda-illustrati
 
 ## Who is the website for?
 
-It’s a website for the art interested person, where the user can get to know Matilda and what she does, get inspired and view her work. It is also a good way for the user to be able to get in touch with the artist. The artist is based in Sweden but can send illustrations electronicallyß if the user would like to purchase one.
+It’s a website for the art interested person, where the user can get to know Matilda and what she does, get inspired and view her work. It is also a good way for the user to be able to get in touch with the artist. 
+The website is also for the artist, it's her portfolio website.
+The artist is based in Sweden but can send illustrations electronicallyß if the user would like to purchase one.
 
 ## The owner
 
@@ -233,7 +235,7 @@ Firefox developer tool have been used at the end stage for validate it looks goo
 
 Using the inspector on firefox made me discover the problem, I had set the max-height for the header to be 16vh, and tried to get the navbar to fit using margin-top, which didn't do the trick. The problem was resolved by removing the max-height on the header.
 
-## Technologies and resources Used
+## Technologies and resources used
 
 I have used:
 
@@ -247,9 +249,15 @@ I have used:
 - Favicon.io for the favicon
 - Git for version control
 - Github for keeping the files, documents and depolyment of the site
+<<<<<<< HEAD
 - Kevin Powell's Youtube channel for learning the basics of CSS grid & flexbox.
 - W3 Scool 
 - Code Institure course material
+=======
+- Kevin Powell's youtube channel for learning the basic of css flexbox and css grid
+- W3 School
+- Code Institute course material
+>>>>>>> 3830b42841b30e8fe5bf9c3b44a40a88c5709d54
 
 ## Media
 
