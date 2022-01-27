@@ -221,9 +221,11 @@ Testing to not format images to make it work on older versions of safari did not
 ### Lighthouse
 
 Lighthouse on desktop
+
 ![lighthouse desktop](assets/documentation/lighthouse-desktop.png)
 
 Lighthouse score on mobile
+
 ![lighthouse mobile](assets/documentation/lighthouse-mobile.png)
 
 
@@ -274,7 +276,6 @@ I have used:
 
 - My mentor at Code Institue Spencer Barriball
 - Matilda Andersson for letting me use her work
-- Kevin Powell for an easy to understand tutorial on CSS Grid & Flexbox
 
 ## The future for the website
 
