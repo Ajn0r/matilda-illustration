@@ -118,7 +118,7 @@ It provides an image of the artist on large screens and also change layout using
 Wireframes were made for each of the pages, both for desktop and mobile.
 A slight change on the about page was done after the wireframes, and that was the "latest work" section with the link to the artist instagram.
 
-![WF gallery Desktop](assets/documentation/wireframes/index-desktop-wireframe.png)
+![WF gallery Desktop](assets/documentation/wireframes/main-desktop-wireframe.png)
 
 [All Wireframes](assets/documentation/wireframes)
 
