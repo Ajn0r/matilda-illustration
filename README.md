@@ -253,6 +253,29 @@ Firefox developer tool have been used at the end stage for validate it looks goo
 
 Using the inspector on firefox made me discover the problem, I had set the max-height for the header to be 16vh, and tried to get the navbar to fit using margin-top, which didn't do the trick. The problem was resolved by removing the max-height on the header.
 
+## Deployment
+
+The website was deployed using Github pages
+
+While in the reposatory, I clicked on settings
+
+![settings](assets/documentation/settings.png)
+
+Then onto pages in the sidebar
+
+![choose pages](assets/documentation/choose-branch.png)
+
+From here I selected the main branch under the Source section, and clicked save
+
+![source](assets/documentation/main-branch-save.png)
+
+Et volià! The site was deployed!
+
+![deployed site](assets/documentation/deployed-site.png)
+
+
+
+
 ## Technologies and resources used
 
 I have used:
