@@ -250,6 +250,8 @@ Firefox developer tool have been used at the end stage for validate it looks goo
 
 Using the inspector on firefox made me discover the problem, I had set the max-height for the header to be 16vh, and tried to get the navbar to fit using margin-top, which didn't do the trick. The problem was resolved by removing the max-height on the header.
 
+- Posting on peer-code-review slack channel, Declan made me aware of that the social media icons did not have a matching space above and below, this due to only setting margin bottom. This was resolved by setting margin to 1rem both above and below.
+
 ## Deployment
 
 The website was deployed using Github pages
@@ -291,6 +293,7 @@ I have used:
 
 ## Special thanks to
 
+- Code Institute Slack community
 - My mentor at Code Institue Spencer Barriball
 - Matilda Andersson for letting me use her work
 

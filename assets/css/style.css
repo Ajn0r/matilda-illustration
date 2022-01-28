@@ -315,7 +315,7 @@ label {
 .footer {
     text-align: center;
     max-height: 10vh;
-    margin-bottom: 1rem;
+    margin: 1rem 0;
 }
 
 .footer-icon {
